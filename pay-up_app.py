@@ -5,7 +5,7 @@ print("Welcome to PayUp!")
 
 event = str(input("what was the event? "))
 cost = float(input("How much did it cost? "))
-service_charge = int(input("Enter the exact tip amount or service charge amount in whole numbers (e.g 20 for 20%) ").strip(%)) 
+service_charge = int(input("Enter the exact tip amount or service charge amount in whole numbers (e.g 20 for 20%) ").strip("%")) 
 service_charge_total = (service_charge /100) * cost
 group_size = int(input("How many people were there? "))
 grand_total = cost + service_charge_total
